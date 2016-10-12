@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+div {
+  height: 15vh;
+  width: 32%;
+  background: blue;
+}
+.topLeft {
+  background: red;
+}
+.topMid {
+  background: cyan;
+}
+.topRight {
+  background: grey;
+}
+p {
+  font-size: 24px;
+  text-align: left;
+}
+.midBoxes {
+  display: flex;
+  background: none;
+  width: auto;
+  height: 32vh;
+  margin: 10px;
+}
+.midLeft {
+  width: 30vw;
+  background: red;
+  height: auto;
+}
+.midRight {
+  width: 70vw;
+  background: cyan;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  margin: 10px;
+}
+.bottomLeft {
+  background: cyan;
+  width: 60vw;
+}
+.bottomRight {
+  width: 40vw;
+  background: red;
+  display: flex;
+  position: relative;
+}
+.bottomIn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 30vw;
+  background: grey;
+}
