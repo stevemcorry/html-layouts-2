@@ -1,0 +1,57 @@
+html {
+  background-color: lightgrey;
+}
+body {
+  margin: 0px;
+}
+
+header, main{
+  margin-top: 30px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 24px;
+}
+button {
+  width: 100px;
+  height: 40px;
+  margin: 8px;
+  border-width: 1px;
+  color: white;
+  font-size: 20px;
+  border-color: lightgrey;
+}
+.buttonLeft {
+  background: rgb(209, 21, 21);
+}
+.buttonRight {
+  background: rgb(103, 176, 208);
+}
+main {
+
+}
+.picture img{
+  height: 25vh;
+  width: 35vw;
+  transform: translatex(-50%);
+  position: relative;
+  left: 50%;
+}
+
+main p {
+  position: relative;
+
+}
+footer {
+  background: black;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+.bottomButton {
+  background: black;
+  border: none;
+  float: right;
+}
