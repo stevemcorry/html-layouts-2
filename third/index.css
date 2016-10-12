@@ -1,0 +1,46 @@
+header {
+  background: rgb(70, 70, 70);
+  color: white;
+  display: flex;
+  padding: px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.link {
+  margin: 18px 0% 18px 10%;
+  background: none;
+  height: auto;
+  width: auto;
+  position: static;
+
+}
+div {
+  height: auto;
+  width: 45%;
+  background: none;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-100%);
+
+
+}
+main {
+  position: relative;
+}
+.column1 {
+
+}
+.column2 {
+
+}
+p {
+  font-size: 18px;
+}
+footer {
+  background: rgb(70, 70, 70);
+  height: 65px;
+}
